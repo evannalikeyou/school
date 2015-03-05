@@ -1,0 +1,63 @@
+body{
+    line-height:1.4;
+    color:#333;
+    font-family:"宋体";
+    font-size: 12px;
+}
+input,textarea,select{
+    font-size:100%;    
+    font-family:inherit;
+}
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,form{
+    margin:0;
+}
+h4,h5,h6{
+    font-size:1em;
+}
+ul,ol{
+    padding-left:0; 
+    list-style-type:none;
+}
+a{
+    text-decoration: none;
+    font-weight: normal;
+    font-family: "宋体";
+    color: #818181;
+}
+img{
+    border:0;
+}
+#header{
+    width: 100%;
+    height: 344px;
+    background: url(../images/header.png) no-repeat;
+    background-position: center;
+}
+#content{
+    width: 1010px;
+    margin: 20px auto;
+    padding: 0 0 50px;
+}
+.content_head{
+    color: #818181;
+    padding: 0 0 7px 0;
+    border-bottom: 1px solid #056eaa;
+    font-weight: normal;
+}
+#wrap {
+    width: 999px;
+    margin: 0 auto;
+}
+#content p{
+    text-indent: 24px;
+    line-height: 2em;
+    padding: 0 23px 0;
+}
+#footer{
+    text-align: center;
+    height: 4.3em;
+    line-height: 4.3em;
+    background: #017abf;
+    color: #fff;
+    font-family: "宋体";
+}
